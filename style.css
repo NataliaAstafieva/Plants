@@ -1,0 +1,468 @@
+* {
+    font-family: 'Inika', serif;
+    font-family: 'Inter', sans-serif;
+    max-width: 1440px;
+}
+
+html {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1440px;
+}
+
+.logo,
+.nav-container,
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+}
+
+.nav-container {
+    height: 134px;
+    background-color: #EDF2EC;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 52px;
+    margin-left: 111px;
+}
+
+.logo-text {
+    margin: 0;
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    padding-top: 5px;
+}
+ 
+.nav {
+    width: 452px;
+    margin-right: 111px;
+}
+.nav-list {
+    margin-top: 58px;
+    margin-right: 111px;
+    width: 452px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav-item {
+    color: #010201;
+
+}
+
+.nav-link,
+.nav-link-1 {
+    text-decoration: none;
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    color: #010201;
+    padding-top: 5px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    transition: 3s;
+}
+
+.nav-link-1 {
+    color: #E06733;
+}
+
+.nav-link:hover {
+    color: #e06733;
+}
+
+.nav-link.active {
+    color: #e06733;
+}
+
+.welcome {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #EDF2EC;
+    height: 532px;
+}
+
+.welcome img {
+    background-color: inherit;
+    height: 410px;
+    margin-top: 60px;
+}
+
+.welcome-text {
+    width: 549px;
+    height: 340px;
+    margin-top: 98px;
+}
+
+.welcome-header {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #717171;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    line-height: 50px;
+}
+
+.header-plants {
+    color: #499A18;
+}
+
+.welcome-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 525px;
+    margin-bottom: 25px;
+}
+
+.welcome-button {
+    width: 158px;
+    height: 44px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.welcome-button:hover {
+    background-color: #E06733;
+    color: white;
+    transition: 0.5s;
+}
+
+.about {
+    width: 1440px;
+    height: 666px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .about img {
+    margin-top: 93px;
+    margin-right: 109px;
+ }
+.about-text {
+    width: 605px;
+    height: 350px;
+    margin-left: 109px;
+    margin-top: 130px;
+}
+
+.about-header {
+    font-family: 'Inika', serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #499A18;
+    width: 463px;
+    height: 102px;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+
+.header-prof {
+    font-family: 'Inika', serif;
+    font-size: 40px;
+    color: #E06733;
+}
+
+.about-info {
+    width: 605px;
+    height: 208px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.service {
+    width: 1440px;
+    height: 1300px;
+    background-color: #EDF2EC;
+}
+
+.service-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 109px;
+    max-width: 1006px;
+}
+
+.service-projects {
+    width: 306px;
+    height: 94px;
+    color: #499A18;
+    font-family: 'Inika', serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin-right: 104px;
+    margin-top: 40px;
+
+}
+.service-btn {
+    width: 161px;
+    height: 50px;
+    color: #E06733;
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-left: 38px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.service-btn:hover {
+    background-color: #E06733;
+    color: white;
+    transition: 0.5s;
+}
+.service-menu {
+    width: 1222px;
+    height: 955px;
+    margin-left: 109px;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-pic {
+    width: 330px;
+    height: 450px;
+    border: 1px solid #E3E1D5;
+    border-radius: 22px;
+    margin-bottom: 55px;
+}
+
+.service-pic img {
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.service-pic-header {
+    color: #E06733;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.service-pic p {
+    color: #717171;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.prices {
+    width: 1440px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prices-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prices-header-left {
+    margin-left: 109px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.prices-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 22px;
+    margin-left: 109px;
+    margin-bottom: 130px;
+    padding: 15px 0;
+}
+
+.prices-btn {
+    width: 250px;
+    height: 50px;
+    background-color: #EDF2EC;
+    border-radius: 20px;
+    border-style: none;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.prices-btn-img {
+    margin-right: 35px;
+}
+
+.prices-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices-header-right {
+    margin-top: 40px;
+    margin-bottom: 42px;
+    margin-right: 109px;
+    font-size: 40px;
+    width: 452px;
+    text-align: right;
+}
+
+.gardeners {
+    color: #499A18;
+}
+
+.prices-contact-btn {
+    width: 161px;
+    height: 50px;
+    color: #E06733;
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 291px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.prices-contact-btn:hover {
+    background-color: #E06733;
+    color: white;
+    transition: 0.5s;
+}
+
+.prices-right img {
+    margin-left: 301px;
+    margin-top: 40px;
+}
+
+.contacts {
+    width: 1440px;
+    height: 550px;
+    background-color: #EDF2EC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.woman {
+    margin-left: 109px;
+    margin-top: 53px;
+}
+
+.contacts-header {
+    font-family: 'Inika', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #499A18;
+    margin-top: 60px;
+    margin-left: 42px;
+}
+
+.select-city {
+    width: 450px;
+    height: 50px;
+    background: #D6E7D2;
+    border-style: none;
+    appearance: none;
+    box-shadow: 0 5px 5px #AEA1A1;
+    margin-top: 148px;
+    margin-right: 109px;
+    font-size: 20px;
+    color:#717171;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.city {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.select-img {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 165px;
+}
+
+.footer-cont {
+    width: 1440px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-link {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 109px;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.github-link-a {
+    text-decoration: none;
+    color: black;
+}
+
+.rs-school a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #010201;
+    margin-left: 15px;
+}
+
+.social {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 109px;
+    margin-top: 30px;
+    padding-left: 0px;
+}
+.social li {
+    list-style-type: none;
+    transition: 0.5s
+}
